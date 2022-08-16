@@ -4,41 +4,35 @@
         <h2>Your Banking App</h2>
     </head>
     <body>
-        <p style="color:white">The development of Hangman was a good introduction to PHP as that is what the functionality is written in. Supporting the HTML markdown language, this project was developed and hosted through the free web/database host InfinityFree. 
-            This gave us the ability to create a database of words based on length and pull them to the project for guessing. Below are some images of the game to give you an idea what you would see as a player.</p>
+        <p style="color:white">The Banking App added a lot of complexity in regards to the back end before and during development. The goal of not only being able to develop a secure means of communication between a user login as well sa communication between client and server is one extra step to increasing security. We like that around here. We utilize C# and .NET to communicate with Entity Framework and pass data back and forth. This is the most insecure part of data which we took into account. To secure this, we incorporated hash and that is salted upon creation of the data transportation.</p>
 
         <div class="container">
             <div class="row">
                 <div class="col-md-5 px-1" width="100%">
-                    <img src="Images/HangmanGame.png" alt="Hangman Game" class="border img-fluid" width="100%">
+                    <img src="Images/BankingApp.png" alt="Banking App" class="border img-fluid" width="100%">
                     <p style="color:white">The main game page.</p>
                 </div>
                 <div class="col-md-5 px-1">
-                    <img src="Images/HangmanGame1.png" alt="Hangman Game" class="border img-fluid" width="100%">
-                    <p style="color:white">The popup when you lose.</p>
+                    <img src="Images/BankingApp2.png" alt="Banking App" class="border img-fluid" width="100%">
+                    <p style="color:white">Transfering Funds.</p>
                 </div>
             </div>
         </div>
 
-        <p style="color:white">As you can see the game is relatively similar to what you would expect with most of the functionality being the focus point.</p>
-        <h4>Game Play:</h4>
-        <p style="color:white">You will need to create an account that will be saved in our local database. Once you login, it will allow your scores to be placed against other players on the leader board. Once logged in, you will see a game board that will show you
-        your game and a set of underscores to represent the length of the word you are to guess. You will enter a letter in the guess text box and once you click submit, if the letter is correct, it will appear in the word at the bottom. If the letter is incorrect, it 
-        will list it in the incorrect guess section and add a piece to your Hangman's noose. You will have the ability to play over and over as you desire or logout when you are finished.</p>
+        <p style="color:white">I feel it is safe to assume most everyone has a bank account or utilized one at one point and as you step through our application, you will see similarities regarding account creation and financial transfers. Being able to have full, secure, control of your money is a top priority! Give it a go, you can add, move, and withdraw finances as you would at your personal bank. There are many ways to fully implement this as it could progress but for the moment, enjoy your endless amount of money.</p>
         
-        <h4>Struggles</h4>
-        <p>There were some big learning curves in this project as I had never worked in PHP before. I spent a good majoriety of my time learning the language as I strived to implement it. This game is still under development to get the leaderboard complete as the task 
-        of passing session variables back and forth was a struggle. Below you will see some of the code base that I worked on and see some of the complexity of the language.</p>
+        <h4>Struggles:</h4>
+        <p>I have a strong understanding of C# as I have dealt with it in industry. Understanding the addion of the server and the connection between the two was where I struggled. The team this was developed in spent most of their time designing the server side hosting which moved that task from my plate. That is a goal and improvement that is in the works as the database that this program is tied to belongs to an individual and there for is secured from random client connection. Implementing a secure server database connection will be the next steps on this project.</p>
 
         <div class="container">
             <div class="row">
                 <div class="col-md-5 px-1" width="100%">
-                    <img src="Images/HangmanCode.png" alt="Hangman Game" Code class="border img-fluid" width="100%">
-                    <p style="color:white">Some code built in PHP</p>
+                    <img src="Images/BankingAppCode.png" alt="Banking App" Code class="border img-fluid" width="100%">
+                    <p style="color:white">Adding Funds</p>
                 </div>
                 <div class="col-md-5 px-1">
-                    <img src="Images/HangmanCode1.png" alt="Hangman Game Code" class="border img-fluid" width="100%">
-                    <p style="color:white">The HTML code designing the page.</p>
+                    <img src="Images/BankingApp1.png" alt="Banking App Code" class="border img-fluid" width="100%">
+                    <p style="color:white">Some of the codebase.</p>
                 </div>
             </div>
         </div>
