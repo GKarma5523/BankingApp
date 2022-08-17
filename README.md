@@ -11,11 +11,11 @@
             <div class="row">
                 <div class="col-md-5 px-1" width="100%">
                     <img src="Images/BankingApp.png" alt="Banking App" class="border img-fluid" width="100%">
-                    <p style="color:white">The main game page.</p>
+                    <p style="color:white">The main game page</p>
                 </div>
                 <div class="col-md-5 px-1">
                     <img src="Images/BankingApp2.png" alt="Banking App" class="border img-fluid" width="100%">
-                    <p style="color:white">Transfering Funds.</p>
+                    <p style="color:white">Transfering Funds</p>
                 </div>
             </div>
         </div>
@@ -33,7 +33,7 @@
                 </div>
                 <div class="col-md-5 px-1">
                     <img src="Images/BankingApp1.png" alt="Banking App Code" class="border img-fluid" width="100%">
-                    <p style="color:white">Some of the codebase.</p>
+                    <p style="color:white">Some of the codebase</p>
                 </div>
             </div>
         </div>
